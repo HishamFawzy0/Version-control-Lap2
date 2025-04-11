@@ -15,13 +15,13 @@
 
     -- comapare bettween Annotated Tag and lightweight Tag
 
-    #Annotated Tag
+    # Annotated Tag
     -Includes a message about the commit
     -Includes author & date information
     -Stored as Git object
 
   
-    #Lightweight Tag
+    # Lightweight Tag
     -Does not include a commit message
     -Does not include author & date information
     -Does not store as Git object - Just a reference to the commit
