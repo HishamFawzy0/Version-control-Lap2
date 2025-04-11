@@ -15,21 +15,23 @@
 
     -- comapare bettween Annotated Tag and lightweight Tag
 
-    #Annotated Tag
-    -Includes a message about the commit
-    -Includes author & date information
-    -Stored as Git object
+    # Annotated Tag
+    ## Includes a message about the commit
+    ## Includes author & date information
+    ## Stored as Git object
+
+  
+    # Lightweight Tag
+    ## Does not include a commit message
+    ## Does not include author & date information
+    ## Does not store as Git object   Just a reference to the commit
     
     **Annotated Tag:**
 ```bash
-git tag -a v1.0.0 -m "First stable release"
+git tag ## a v1.0.0 -m "First stable release"
 ```
 
 
-    #Lightweight Tag
-    -Does not include a commit message
-    -Does not include author & date information
-    -Does not store as Git object - Just a reference to the commit
 
 
 **Lightweight Tag:**
