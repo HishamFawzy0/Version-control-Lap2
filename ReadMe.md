@@ -75,3 +75,9 @@ git push origin :refs/tags/tag_name
 ```
 
 ![alt text](image.png)
+
+# how to crate a file and ignore it in .gitignore
+
+
+
+![alt text](Image2.png)
